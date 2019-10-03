@@ -1,6 +1,6 @@
 /*
     ex01.cc
-    概要: Ex01
+    概要: Ex01: 性名の入出力
     Author: Kaito Kimura
     Date: 2019-10-03
 */
