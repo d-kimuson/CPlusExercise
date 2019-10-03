@@ -18,7 +18,7 @@ int main() {
   std::cin >> last_name;
 
   // Output
-  const std::string content = "* Hello, " + last_name + " " + first_name + "! *";
+  const std::string content = "* Hello, " + first_name + " " + last_name + "! *";
   const int size = content.size();
 
   std::cout << std::string(size, '*') << std::endl;
