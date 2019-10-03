@@ -23,7 +23,7 @@ int main() {
 
   std::cout << std::string(size, '*') << std::endl;
   std::cout << "*" << std::string(size-2, ' ') << "*" << std::endl;
-  std::cout << "* Hello, " << last_name << " " << first_name << "! *" << std::endl;
+  std::cout << content << std::endl;
   std::cout << "*" << std::string(size-2, ' ') << "*" << std::endl;
   std::cout << std::string(size, '*') << std::endl;
 
