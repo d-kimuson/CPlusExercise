@@ -2,7 +2,7 @@
 
 printf "Input File Name >> "; read FILE
 printf "Input Overview >> "; read OVERVIEW
-cp ./template.cc ${FILE}
+cp /Users/kaito/Desktop/今期/C++/exercise/template.cc ${FILE}
 
 # Replace
 sed -i -e "s/FILENAME/"${FILE}"/g" ${FILE}
