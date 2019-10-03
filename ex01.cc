@@ -12,9 +12,9 @@ int main() {
   std::string last_name;  // 性: last name
 
   // Input
-  std::cout << "Pleaes input your first name >> ";
+  std::cout << "Pleaes input your first name";
   std::cin >> first_name;
-  std::cout << "Pleaes input your last name >> ";
+  std::cout << "Pleaes input your last name";
   std::cin >> last_name;
 
   // Output
