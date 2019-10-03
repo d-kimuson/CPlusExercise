@@ -1,8 +1,8 @@
 /*
-    $FILENAME
-    概要: $OVERVIEW
+    FILENAME
+    概要: OVERVIEW
     Author: Kaito Kimura
-    Date: $DATE
+    Date: DATE
 */
 
 #include <iostream>
