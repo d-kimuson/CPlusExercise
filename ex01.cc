@@ -18,11 +18,14 @@ int main() {
   std::cin >> last_name;
 
   // Output
-  std::cout << "**************************" << std::endl;
-  std::cout << "*                        *" << std::endl;
+  const std::string content = "* Hello, " + last_name + " " + first_name + "! *";
+  const int size = content.size();
+
+  std::cout << std::string(size, '*') << std::endl;
+  std::cout << "*" << std::string(size-2, ' ') << "*" << std::endl;
   std::cout << "* Hello, " << last_name << " " << first_name << "! *" << std::endl;
-  std::cout << "*                        *" << std::endl;
-  std::cout << "**************************" << std::endl;
+  std::cout << "*" << std::string(size-2, ' ') << "*" << std::endl;
+  std::cout << std::string(size, '*') << std::endl;
 
   return 0;
 }
