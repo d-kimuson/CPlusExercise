@@ -8,24 +8,24 @@
 #include <iostream>
 
 int main() {
-  std::string first_name;  // 名: first name
-  std::string last_name;  // 性: last name
+    std::string first_name;  // 名: first name
+    std::string last_name;  // 性: last name
 
-  // Input
-  std::cout << "Pleaes input your first name";
-  std::cin >> first_name;
-  std::cout << "Pleaes input your last name";
-  std::cin >> last_name;
+    // Input
+    std::cout << "Pleaes input your first name";
+    std::cin >> first_name;
+    std::cout << "Pleaes input your last name";
+    std::cin >> last_name;
 
-  // Output
-  const std::string content = "* Hello, " + first_name + " " + last_name + "! *";
-  const int size = content.size();
+    // Output
+    const std::string content = "* Hello, " + first_name + " " + last_name + "! *";
+    const int size = content.size();
 
-  std::cout << std::string(size, '*') << std::endl;
-  std::cout << "*" << std::string(size-2, ' ') << "*" << std::endl;
-  std::cout << content << std::endl;
-  std::cout << "*" << std::string(size-2, ' ') << "*" << std::endl;
-  std::cout << std::string(size, '*') << std::endl;
+    std::cout << std::string(size, '*') << std::endl;
+    std::cout << "*" << std::string(size - 2, ' ') << "*" << std::endl;
+    std::cout << content << std::endl;
+    std::cout << "*" << std::string(size - 2, ' ') << "*" << std::endl;
+    std::cout << std::string(size, '*') << std::endl;
 
-  return 0;
+    return 0;
 }
