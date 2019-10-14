@@ -41,14 +41,17 @@ int main() {
     print_frame_line();  // start line
 
     while (cin >> id >> first_name >> last_name >> mid >> final) {
+        // initialize each variables
         homework.clear();
         count = 0;
         sum = 0.0;
+
         // print separate line
         if(line_count != 0 && line_count % 5 == 0) {
             print_seq_line(line_count);
         }
 
+        // input exercise results
         while(cin >> exercise) {
             if (exercise == -1) {
                 break;
