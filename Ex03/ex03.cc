@@ -66,7 +66,7 @@ int main() {
             average = 0.0;
         }
 
-        // cals median
+        // calc median
         sort(homework.begin(), homework.end());
         index = homework.size() / 2;
 
