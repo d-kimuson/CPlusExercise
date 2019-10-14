@@ -74,7 +74,7 @@ int main() {
             median = 0.0;
         } else {
             median = homework.size() % 2 == 0 ? (homework[index-1] + homework[index]) / 2
-                                    : homework[index];
+                                              : homework[index];
         }
 
         // calc grade
