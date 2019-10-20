@@ -1,6 +1,6 @@
 /*
-    ex0X.cc
-    概要: 
+    ex04.cc
+    概要: 成績を入力に成績を計算して出力するプラグラム
     Author: Kaito Kimura
     Date: 2019/10/17
 */
