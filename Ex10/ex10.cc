@@ -11,7 +11,7 @@
 #include <vector>
 
 #define NAME_SIZE 11
-#define NUMBER_SIZE 9
+#define ID_SIZE 9
 #define TOTAL_SIZE 5
 #define MEDIAN_SIZE 5
 #define GRADE_SIZE 5
@@ -141,7 +141,7 @@ void Student_info::print_row(ostream &os) {
      << fill(NAME_SIZE - FirstName.size() - SPACE_SIZE * 2) << space;
   os << "|" << space << LastName
      << fill(NAME_SIZE - LastName.size() - SPACE_SIZE * 2) << space;
-  os << "|" << space << ID << fill(NUMBER_SIZE - ID.size() - SPACE_SIZE * 2)
+  os << "|" << space << ID << fill(ID_SIZE - ID.size() - SPACE_SIZE * 2)
      << space;
   if (is_valid()) {
     os << "|" << space << fixed << setw(TOTAL_SIZE - SPACE_SIZE * 2)
@@ -174,7 +174,7 @@ string sep_line(int word_number, char sep) {
   count_str = word_number != -1 ? to_string(word_number) : "";
   line = "+";
   double sizes[] = {NAME_SIZE - SPACE_SIZE * 2,   NAME_SIZE - SPACE_SIZE * 2,
-                    NUMBER_SIZE - SPACE_SIZE * 2, TOTAL_SIZE - SPACE_SIZE * 2,
+                    ID_SIZE - SPACE_SIZE * 2, TOTAL_SIZE - SPACE_SIZE * 2,
                     MEDIAN_SIZE - SPACE_SIZE * 2, GRADE_SIZE - SPACE_SIZE * 2};
   for (int i = 0; i != sizeof(sizes) / sizeof(*sizes); i++) {
     line += string(sizes[i], sep) + "+";
